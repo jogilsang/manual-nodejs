@@ -19,7 +19,7 @@ npm i mariadb
 ```
 
 ### json-array
-```nodejs
+```javascript
 var student = [];
 var obj = {
     'first_name': name,
