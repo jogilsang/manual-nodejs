@@ -6,8 +6,8 @@ for me
 npm install
 npm start
 ```
-
-### nodejs + mariaDB
+### module, library
+1. mariaDB, express
 ```
 src : https://ing-yeo.net/2020/02/study-nodejs-database-mariadb/
 
@@ -28,3 +28,5 @@ var obj = {
 }
 student.push(obj);
 ```
+
+###
