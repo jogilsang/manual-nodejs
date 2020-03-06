@@ -40,3 +40,15 @@ var obj = {
 }
 student.push(obj);
 ```
+
+
+### 설치 환경 구성
+Ubuntu Server 18.0.4
+1. nodejs
+```
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install -y nodejs
+node -v
+npm -v
+sudo apt-get install build-essential
+```
