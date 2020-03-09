@@ -1,6 +1,15 @@
 # manual-nodejs
 for me
 
+### 서버 백그라운드 실행 forever
+```
+sudo npm install -g forever
+forever start app.js or forever start ./bin/www
+forever list
+forever stop 0
+ps -ef | grep node
+```
+
 ### 명령어 Command
 ```
 npm install
