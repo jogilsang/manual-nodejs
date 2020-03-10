@@ -1,6 +1,50 @@
 # manual-nodejs
 for me
 
+### CORS, favicon, control access allow origin
+```
+1. cmd
+npm install cors
+
+2. app.js
+var cors = require('cors');
+
+app.use(cors());
+app.get('/products/:id', function (req, res, next) {
+  res.json({msg: 'This is CORS-enabled for all origins!'})
+});
+app.listen(80, function () {
+  console.log('CORS-enabled web server listening on port 80')
+});
+
+3. cmd
+npm install serve-favicon
+
+4. app.js
+var favicon = require('serve-favicon')
+app.use(favicon(path.join('./public/images','favicon.ico')));
+
+5. index.pug
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  link(rel='shortcut icon', href='~/favicon.ico')
+  
+6. index.html
+router.get('/', function (req, res, next) {
+  // res.send('회의실 예약 앱 - 웹 서버');
+  res.render('index',
+    {
+      title : 'Hey'
+    }
+  );
+});
+
+7. sudo로 명령실행
+```
+
 ### 서버 백그라운드 실행 forever
 ```
 sudo npm install -g forever
