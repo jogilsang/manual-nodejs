@@ -1,6 +1,13 @@
 # manual-nodejs
 for me
 
+### nvm
+SyntaxError: Unexpected token function - Async Await Nodejs   
+```
+nvm list
+nvm use ''
+```
+
 ### CORS, favicon, control access allow origin
 ```
 1. cmd
