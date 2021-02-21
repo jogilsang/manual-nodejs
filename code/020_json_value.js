@@ -16,3 +16,9 @@ const fieldName = 'nation';
 
 console.log(user.nation);
 console.log(user[fieldName]);
+
+// response
+// person
+// person
+// korea
+// korea
