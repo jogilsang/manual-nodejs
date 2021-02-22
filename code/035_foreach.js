@@ -8,6 +8,7 @@ const userList = [
 
 ];
 
+// forEach(callbackfn: (value: T, index: number, array: T[]) => void, thisArg?: any): void;
 userList.forEach(function(user) {
     console.log(user);
 });
