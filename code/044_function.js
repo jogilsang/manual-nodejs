@@ -47,3 +47,12 @@ console.log(calculate(3,5,plus));
 // 050. arrow 함수
 
 const print
+
+// 106_프리디케이트_predicate
+
+const isApple = (fruit) => {
+    if (fruit === 'apple') return true;
+        return false;
+}
+
+console.log(`isApple('applie') = ${isApple('applie')}`);

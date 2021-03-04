@@ -93,3 +93,16 @@ studentList.sort(compare);
 // ----------
 // now: { name: 'gilsang4', age: 40, math: 90 }
 // next: { name: 'gilsang2', age: 32, math: 98 }
+
+const numbers = [1,2,19,38,4,98,25];
+
+// predicate
+const isFirstBiggerThenSecond = (first, second) => {
+    if (first > second) return true;
+        return false;
+}
+
+console.log(`numbers sorted : ${numbers.sort(isFirstBiggerThenSecond)}`);
+
+// print
+// numbers sorted : 1,2,4,19,25,38,98
