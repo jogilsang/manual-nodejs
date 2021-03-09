@@ -4,6 +4,7 @@
 
 // 051_callback
 // callback이 겹치면, 체이닝(chainning)
+// callback ? () => {}
 const sum = (a,b) => a+b;
 
 const printResult = (result) => {
