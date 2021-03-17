@@ -6,14 +6,6 @@
 // res.json() : JSON 응답전송
 // res.redirect() : 요청경로 재지정
 
-// req.headers : 요청 헤더의 추출
-// req.query : GET 방식으로 요청한 매개변수 추출
-// req.body : POST 방식으로 요청한 매개변수 추출
-// req.params : 라우팅 매개변수 추출
-// req.baseUrl
-// req.hostname
-// req.protocol
-
 const express = require('express');
 const app = express();
 
